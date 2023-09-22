@@ -1,0 +1,63 @@
+﻿WELCOME TO THE DOULLY FRAMEWORK DOCUMENTATION
+
+
+Doully framework is a simple frontend open-source framework using fullpage.js, To clarify I DID NOT WRITE FULLPAGE.JS NOR DO I TAKE RESPONSIBILITY FOR IT. My product is rather a framework for web designers to simply integrate their designs into a fullpage.js website frontend. 
+My product is not a fully functional website nor does it include any premade elements such as buttons and hyperlinks, it rather displays three example images of what a website using doully framework could look like if time and budget were spent on it. It also does not include any backend development such as ddos protection, much less server side applications.
+Doully framework also does not offer free fullpage.js payments so any commercial website will have to follow the fullpage.js terms of service which can be found here. (https://alvarotrigo.com/fullPage/)
+HOWEVER… 
+Doully framework is fully open source and includes these docs in with the files as to make integration easier for lesser trained developers and web designers with limited coding knowledge. 
+It is made to make beautifully transitioning websites much more achievable for everyday users and less time consuming as a whole.
+In these docs it will give simple information about initialisation and later on also in depth information about more advanced optional features.
+
+
+
+
+
+
+________________
+
+
+Simple information
+So you want to make a website using doully Framework, to begin using it in the most simple way possible you will need three or more page designs in pdf format moved into your local main folder.
+Depending on whether you have more or less pages you will have to add or delete two code blocks from index.html and fullpage.css.
+
+
+---Index.html editing required--
+Go to this section  
+Add or remove <div> tags with corresponding classes e.g. <div class:”section s4”> for a fourth page
+________________
+
+
+
+
+---Fullpage.css editing---
+  
+
+Scroll down to this section after fullpage.js requirements as clearly marked by long green lines of comment
+
+
+  
+
+Add or remove .s1{} brackets as required for pages and copy in code editing only the bracket name and the background-image url property to your design file name
+E.g. 
+.s5{
+        Background-image: url(example.png);
+        Background-size: cover;
+        Display: flex;
+}
+________________
+This approach will display any designs you have created and wish to display, the downsides to this approach are that it sacrifices intractable elements for simplicity in setting up, this means no hyperlinks will function, nor will any buttons or other elements
+
+
+
+
+In depth information
+More In detail development can still be done using this framework as it still uses a base of HTML5 to function as a website meaning it is fully compatible with any html5 library or html5 coding.
+The design of Doully framework is very simplistic and easy to read/understand for even hobbyist html programmers making it very easy to customise with html elements and by extension css elements.
+
+
+For hobbyists looking to develop html, index.html is per the status quo; the main html file and fullpage.css is the main css file.
+BE AWARE when editing fullpage.css to scroll down past all fullpage required programming unless you have had a detailed read through the official fullpage.js documentation found here (https://alvarotrigo.com/fullPage/docs/) as this section is very sensitive and important to the functionality of fullpage.js.
+
+
+Doully framework is set up in such a way that it uses flexbox as it's html library for positioning making it very easy to place things using the simple flexbox guide found at the link here. (https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
